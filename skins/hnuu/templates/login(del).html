@@ -1,0 +1,126 @@
+<!-- <roundcube:include file="includes/layout.html" /> -->
+
+<!-- <h1 class="voice"><roundcube:object name="productname" /> <roundcube:label name="login" /></h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<roundcube:object name="logo" src="/images/logo.svg" id="logo" alt="Logo" />
+	<roundcube:form id="login-form" name="login-form" method="post" class="propform">
+	<roundcube:object name="loginform" form="login-form" size="40" submit=true class="form-control" />
+		<div id="login-footer" role="contentinfo">
+			<roundcube:object name="productname" condition="config:display_product_info &gt; 0" />
+			<roundcube:object name="version" condition="config:display_product_info == 2" />
+			<roundcube:if condition="config:support_url" />
+				&nbsp;&bull;&nbsp; <a href="<roundcube:var name='config:support_url' />" target="_blank" class="support-link"><roundcube:label name="support" /></a>
+			<roundcube:endif />
+			<roundcube:container name="loginfooter" id="login-footer" />
+		</div>
+	</form>
+</div> -->
+
+	<div class="loginLayout">
+		<div class="layout-content">
+			<div class="preview_head">
+			<div class="company_logo">
+				<img alt="" class="logo_img" src="http://mail.stud.hnuu.edu.cn/cgi-bin/viewfile?type=skin&amp;domain=&amp;f=14217A43806E5DEC8C733CF5FD2A2618FB68DC6154E2E4A862F7F323BDFC4020&amp;skin_modtime=1571126680"/>
+			</div>
+			<p class="edit_issue">电子邮件系统（测试）</p>
+			</div>
+			<div class="company_main">
+			<div class="company_main_wrap">
+				<div class="company_loginbox">
+				<!-- <ul class="js_option_header">
+					<li class="nav_item">扫码登陆</li>
+					<li class="nav_item">账号登录</li>
+				</ul>
+				<div class="js_input_area">
+					<div id="loginWithQRCode">
+					</div>
+					<div id="loginWithPwd">
+					
+					<table class="table">
+	
+						<tbody>
+						<tr>
+							<td class="company_input_wrap">
+							<label for="account">账号</label>
+							<div class="input_with_domain">
+								<input class="self_input form-control" type="text" id="account">
+								<span class="domain_play">@ganxy03.cn</span>
+							</div>
+							</td>
+						</tr>
+	
+						
+						<tr>
+							<td class="company_input_wrap">
+							<label for="password">密码</label>
+							<input class="self_input self_input-second form-control" type="password" id="password">
+							</td>
+						</tr> 
+						</tbody>
+						
+					</table>
+	
+	
+					<div class="more_option">
+						<span>
+						<input type="checkbox">
+						<label for="autoLogin">自动登录</label>
+						</span>
+						<a href="">忘记密码</a>
+					</div>
+					<div class="login_submit">
+						<button class="btn btn-success">登录</button>
+					</div>
+					<div class="admin_login_link_wrap">
+						<a href="">管理员登录</a>
+					</div>
+					</div>
+					<div id="register">
+					</div>
+				</div>
+				<div class="js_option_area">
+					<a href="">注册账号</a>
+				</div> -->
+				<!-- <h1 class="voice"><roundcube:object name="productname" /> <roundcube:label name="login" /></h1> -->
+				<!-- <h1>登录</h1> -->
+				<ul class="js_option_header">
+					<li class="nav_item">扫码登陆</li>
+					<li class="nav_item">账号登录</li>
+				</ul>
+				<roundcube:form id="login-form" name="login-form" method="post" class="propform"></roundcube:form>
+				<roundcube:object name="loginform" form="login-form" size="40" submit=true class="form-control" />
+					<div id="login-footer" role="contentinfo">
+						<roundcube:object name="productname" condition="config:display_product_info &gt; 0" />
+						<roundcube:object name="version" condition="config:display_product_info == 2" />
+						<roundcube:if condition="config:support_url" />
+							&nbsp;&bull;&nbsp; <a href="<roundcube:var name='config:support_url' />" target="_blank" class="support-link"><roundcube:label name="support" /></a>
+						<roundcube:endif />
+						<roundcube:container name="loginfooter" id="login-footer" />
+					</div>
+				</form>
+				</div>
+				<div class="company_pic">
+				<img src="http://mail.stud.hnuu.edu.cn/cgi-bin/viewfile?type=skin&amp;domain=&amp;f=14217A43806E5DEC8C733CF5FD2A2618FB68DC6154E2E4A83191E1119499949D&amp;skin_modtime=1571126680"/>
+				</div>
+			</div>
+			</div>
+		</div>
+	
+	
+	
+		<div class="company_bottom">
+			<div class="company_link bg_color">
+				<a href="/docs" target="_blank">使用文档</a> |
+				<a href="https://exmail.qq.com/cgi-bin/loginpage?t=dm_loginpage&amp;dmtype=bizmail" target="_blank">管理员登录</a>
+			</div>
+			<div class="company_copyright ">
+				<!-- &copy; <span>2024 Tencent Inc. All Rights Reserved</span> -->
+				<a href="https://beian.miit.gov.cn/" id="beian_tag" style="display: block;color: #798698;font-size: 12px;text-align: center;text-decoration:underline;" target="_blank">浙ICP备11022180号-1</a>
+			</div>
+		</div>
+	</div>
+<roundcube:include file="includes/footer.html" />
+
+
+  

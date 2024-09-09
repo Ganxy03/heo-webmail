@@ -1,0 +1,259 @@
+/* 以下 为 自添 样式 覆盖上爬取的 */
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	min-height: 100vh;
+}
+
+.preview_head {
+	height: 60px;
+	display: flex;
+	line-height: 60px;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.preview_head .company_logo, .preview_head .edit_issue {
+	margin: 0 24px;
+}
+
+.company_main {
+	background: #4a74b5;
+	min-height: 476px;
+	width: 100%;
+}
+.company_main_wrap {
+	min-height: 476px;
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company_loginbox {
+    border: 0px solid #4A74B5;
+    width: 325px;
+	min-height: 355px;
+    background: #c9d6e9;
+    border-radius: 5px;
+	position: relative;
+    margin: 50px 0 15px 0;
+    padding: 6px 30px 10px;
+}
+
+
+#layout-content .company_main .company_loginbox #logo {
+	top: 0;
+}
+
+.js_input_area {
+	padding-top: 24px;
+}
+
+
+.company_input_wrap {
+	display: flex;
+}
+
+.company_input_wrap label {
+    width: 48px;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    padding: 4px 0;
+	font-weight: 400;
+}
+
+.input_with_domain {
+	width: 100%;
+}
+
+.input_with_domain .self_input {
+	width: 51%;
+}
+
+.company_input_wrap .form-control {
+	display: inline-block;
+	height: 28px;
+}
+
+.self_input-second {
+	width: 100%;
+}
+
+.input_with_domain .domain_play {
+	width: calc(49% - 43px);
+}
+
+
+
+
+.more_option {
+	display: flex;
+	justify-content: space-between;
+	line-height: 27px;
+}
+
+.more_option label {
+	font-weight: 400;
+}
+
+
+
+.login_submit {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 23px;
+	padding: 0 35px 20px;
+}
+
+.login_submit .btn-success {
+	width: 160px;
+}
+
+
+
+.admin_login_link_wrap {
+	display: flex;
+	
+	justify-content: flex-end;
+	margin-bottom: 8px;
+    margin-top: -10px;
+
+	
+}
+
+
+
+.js_option_area  {
+	width: 100%;
+	background: #D9E3F1;
+    color: #34599D;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.nav_item {
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+	color: #705ea2;
+	cursor: pointer;
+}
+
+.js_option_header {
+	font-size: 0;
+    border: 0 none;
+    padding: 12px 0 11px;
+    width: 275px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.company_pic {
+	transform: scale(1.4);
+}
+
+.company_pic img {
+	width: 100%;
+}
+
+.self_preview_03 .company_bottom {
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1320px) {
+	.company_main {
+		width: 100%;
+		height: 476px;
+		background: url(./banner1.jpg) 50% no-repeat;
+		background-size: cover;
+	}
+	.company_main_wrap {
+		display: block;
+		position: relative;
+		margin-left: calc((100% - 325px) / 2);
+	}
+	.company_loginbox {
+		position: absolute;
+		left: 0;
+		z-index: 999;
+		background-color: rgba(201,214,233, 0.8);
+		/* background-color: #c9d6e999; */
+	}
+	.company_pic {
+		display: none;
+		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.preview_head .company_logo, .preview_head .edit_issue {
+		margin: 0;
+	}
+
+	.edit_issue {
+		max-width: calc(100% - 60px);
+		overflow-y: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+#layout {
+	
+}
+
+.loginLayout {
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#layout #layout-content, .self_preview_wrap  {
+	min-height: 50vh;
+}
+
+.layout-content #login-footer {
+	text-align: center;
+}
+
+.company_loginbox #login-form {
+	/* top: 0; */
+	top: 24px;
+}
+
+/* #layout-content #rcmloginsubmit-clone {
+	display: none;
+} */
+
+.company_bottom {
+	text-align: center;
+}
+
+.company_bottom {
+	padding-top: 20px;
+}

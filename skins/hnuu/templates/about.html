@@ -1,0 +1,23 @@
+<roundcube:include file="includes/layout.html" />
+
+<h1 class="voice"><roundcube:label name="about" /></h1>
+
+<div class="frame-content">
+	<roundcube:object name="aboutcontent" />
+	<h2 class="sysname">Heo webmail 1.0</h2>
+	<p class="copyright">Copyright © 2024, Ganxy</p>
+	<!-- <p class="license"><roundcube:object name="license" /></p> -->
+
+	<p class="license">
+		原项目 <a target="_blank" href="https://roundcube.net/license/">Roundcube Webmail 1.4.6</a> ,
+		在官方文档及源代码的基础上进行了修改，并增添了部分功能。
+		本项目的代码遵循 <a target="_blank" href="https://github.com/Ganxy03/motto/blob/main/LICENSE">MIT License</a> 协议。
+		<br />
+	</p>
+	<div class="readtext">
+		<h3><roundcube:label name="installedplugins" /></h3>
+		<roundcube:object name="pluginlist" id="pluginlist" class="records-table" />
+	</div>
+</div>
+
+<roundcube:include file="includes/footer.html" />

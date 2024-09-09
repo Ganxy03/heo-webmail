@@ -1,0 +1,2 @@
+[09-Sep-2024 10:43:31 +0800]: <ihtudse9> IMAP Error: Login failed for 123 against mail01.ganxy03.cn from 127.0.0.1. AUTHENTICATE PLAIN: Authentication failed. in D:\Work\PHP\WebMail\program\lib\Roundcube\rcube_imap.php on line 211 (POST /?_task=login&_action=login)
+[09-Sep-2024 13:30:20 +0800]: <kq5dt3fa> IMAP Error: Login failed for root@ganxy03.cn against mail01.ganxy03.cn from 127.0.0.1. AUTHENTICATE PLAIN: Authentication failed. in D:\Work\PHP\WebMail\program\lib\Roundcube\rcube_imap.php on line 211 (POST /?_task=login&_action=login)
